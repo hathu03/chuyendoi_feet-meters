@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <input type="number" id="inputFeet" placeholder="Nhap vao feet"
+    oninput="feetConverter(this.value)"
+    onchange="feetConverter(this.value)">
+    <p>meters: <span id="outputMeters"></span></p>
+
+</form>
+<script>
+    function feetConverter(feet) {
+        meter = 0.305 * feet
+        document.getElementById("outputMeters").innerHTML = meter = 0.305 * feet
+
+    }
+
+
+
+</script>
+</body>
+</html>
